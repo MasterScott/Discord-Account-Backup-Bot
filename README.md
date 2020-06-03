@@ -9,3 +9,9 @@ This could be useful as Discord can ban you at any time, for any unreliable reas
 4. Join saved servers
 
 ![](https://i.imgur.com/kLMzy7Y.png)
+
+## Usage
+Run this command in CMD, terminal or PowerShell (if you don't already have the **requests** module installed):
+```
+pip install requests
+```
