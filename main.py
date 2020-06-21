@@ -108,7 +108,7 @@ def add_friends():
                         sys.stdout.write('Error: %s\n' % (add.text))
                         break
 
-                delay = random.randint(30, 35)
+                delay = random.randint(50, 60)
                 time.sleep(delay)
         
         sys.stdout.write('\n> Successfully added %s Discord friends.\n\n' % (added_friends))
@@ -150,7 +150,7 @@ def join_servers():
                         sys.stdout.write('Error: %s\n' % (join.text))
                         break
 
-                delay = random.randint(40, 45)
+                delay = random.randint(55, 60)
                 time.sleep(delay)
 
         sys.stdout.write('\n> Successfully joined %s Discord servers.\n\n' % (joined_servers))
